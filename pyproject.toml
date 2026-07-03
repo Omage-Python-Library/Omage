@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "omage"
+version = "0.1.1"
+description = "AI-First Python Library — Build AI the way you think"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Omage Team" }]
+keywords = ["ai", "machine-learning", "deep-learning", "pytorch", "neural-network"]
+requires-python = ">=3.8"
+
+dependencies = [
+    "torch>=2.0.0",
+    "numpy>=1.24.0",
+    "pandas>=2.0.0",
+    "tqdm>=4.65.0",
+]
+
+[project.optional-dependencies]
+vision  = ["torchvision>=0.15.0"]
+nlp     = ["transformers>=4.30.0"]
+detect  = ["ultralytics>=8.0.0"]
+full    = ["torchvision>=0.15.0", "transformers>=4.30.0", "ultralytics>=8.0.0"]
+dev     = ["pytest>=7.0.0", "pytest-cov>=4.0.0", "black>=23.0.0", "ruff>=0.1.0"]
+
+[project.scripts]
+omage = "omage.cli.main:main"
+
+[project.urls]
+Homepage   = "https://github.com/your-username/omage"
+Repository = "https://github.com/your-username/omage"
+Issues     = "https://github.com/your-username/omage/issues"
+
+[tool.setuptools.packages.find]
+exclude = ["tests*", "examples*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts   = "-v"
+
+[tool.black]
+line-length    = 100
+target-version = ["py38", "py39", "py310", "py311"]
+
+[tool.ruff]
+line-length = 100
+select      = ["E", "F", "I"]

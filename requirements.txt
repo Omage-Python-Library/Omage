@@ -1,0 +1,20 @@
+# Core
+torch>=2.0.0
+numpy>=1.24.0
+pandas>=2.0.0
+tqdm>=4.65.0
+
+# Optional — Vision
+# torchvision>=0.15.0
+
+# Optional — NLP
+# transformers>=4.30.0
+
+# Optional — Detection
+# ultralytics>=8.0.0
+
+# Dev
+# pytest>=7.0.0
+# pytest-cov>=4.0.0
+# black>=23.0.0
+# ruff>=0.1.0
