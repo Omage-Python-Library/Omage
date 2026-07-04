@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/logo.png" alt="Omage Logo" width="220"/>
+<img src="docs/omage_logo.svg" alt="Omage Logo" width="220"/>
 
 # Omage
 
