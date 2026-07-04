@@ -51,16 +51,16 @@ ai.train(data, epochs=10)
 
 ```bash
 # Basic
-pip install git+https://github.com/your-username/omage.git
+pip install git+https://github.com/Omage-Python-Library/Omage.git
 
 # With vision models (ResNet, MobileNet)
-pip install "git+https://github.com/your-username/omage.git#egg=omage[vision]"
+pip install "git+https://github.com/Omage-Python-Library/Omage.git#egg=omage[vision]"
 
 # With NLP models (GPT-2, BERT)
-pip install "git+https://github.com/your-username/omage.git#egg=omage[nlp]"
+pip install "git+https://github.com/Omage-Python-Library/Omage.git#egg=omage[nlp]"
 
 # Everything
-pip install "git+https://github.com/your-username/omage.git#egg=omage[full]"
+pip install "git+https://github.com/Omage-Python-Library/Omage.git#egg=omage[full]"
 ```
 
 > **Requirements:** Python 3.8+ · PyTorch 2.0+ · NumPy · Pandas · tqdm
