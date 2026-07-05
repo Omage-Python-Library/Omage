@@ -249,7 +249,8 @@ omage/
 ## 🧪 Tests
 
 ```bash
-git clone https://github.com/your-username/omage.git
+git clone https://github.com/Omage-Python-Library/Omage.git
+
 cd omage
 pip install -e ".[dev]"
 pytest tests/ -v
