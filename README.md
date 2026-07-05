@@ -4,16 +4,6 @@
 
 # Omage
 
-## 🎯 About This Project
-
-I'm not an AI researcher or a professional in the machine learning field. However, I was often frustrated by how complex and verbose building models with PyTorch could be for beginners and rapid prototyping.
-
-So, with the help of Claude (xAI), I created **Omage** — a simple, readable, and high-level wrapper that lets you build, train, and experiment with AI models the way you think, with minimal boilerplate.
-
-My goal is to help more people (especially those who are not deep into ML) to quickly test their ideas and lower the barrier of entry.
-
-The project is still in **Alpha (v0.1.1)** and has a lot of room for improvement. Any feedback, issues, or contributions are highly welcome!
-
 **Build AI the way you think.**
 
 [![Version](https://img.shields.io/badge/version-0.1.1--alpha-blue?style=flat-square)](https://github.com/your-username/omage/releases)
@@ -24,6 +14,16 @@ The project is still in **Alpha (v0.1.1)** and has a lot of room for improvement
 [![Status](https://img.shields.io/badge/status-alpha-red?style=flat-square)]()
 
 Omage is a Python library that makes building, training, and deploying AI models as simple and readable as possible — no boilerplate, no confusion.
+
+## 🎯 About This Project
+
+at the first I'm not an AI researcher or a professional in the machine learning field. However, I was often frustrated by how complex and verbose building models with PyTorch could be for beginners and rapid prototyping.
+
+So, with the help of Claude (xAI), I created **Omage** — a simple, readable, and high-level wrapper that lets you build, train, and experiment with AI models the way you think, with minimal boilerplate.
+
+My goal is to help more people (especially those who are not deep into ML) to quickly test their ideas and lower the barrier of entry.
+
+The project is still in **Alpha (v0.1.1)** and has a lot of room for improvement. Any feedback, issues, or contributions are highly welcome!
 
 [**Quick Start**](#-quick-start) · [**Installation**](#-installation) · [**Examples**](#-examples) · [**Model Zoo**](#-model-zoo) · [**CLI**](#-cli) · [**Contributing**](#-contributing)
 
