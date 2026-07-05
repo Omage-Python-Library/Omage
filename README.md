@@ -4,6 +4,16 @@
 
 # Omage
 
+## 🎯 About This Project
+
+I'm not an AI researcher or a professional in the machine learning field. However, I was often frustrated by how complex and verbose building models with PyTorch could be for beginners and rapid prototyping.
+
+So, with the help of Claude (xAI), I created **Omage** — a simple, readable, and high-level wrapper that lets you build, train, and experiment with AI models the way you think, with minimal boilerplate.
+
+My goal is to help more people (especially those who are not deep into ML) to quickly test their ideas and lower the barrier of entry.
+
+The project is still in **Alpha (v0.1.1)** and has a lot of room for improvement. Any feedback, issues, or contributions are highly welcome!
+
 **Build AI the way you think.**
 
 [![Version](https://img.shields.io/badge/version-0.1.1--alpha-blue?style=flat-square)](https://github.com/your-username/omage/releases)
