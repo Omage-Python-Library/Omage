@@ -17,9 +17,9 @@ Omage is a Python library that makes building, training, and deploying AI models
 
 ## 🎯 About This Project
 
-at the first I'm not an AI researcher or a professional in the machine learning field. However, I was often frustrated by how complex and verbose building models with PyTorch could be for beginners and rapid prototyping.
+At first I'm not an AI researcher or a professional in the machine learning field. However, I was often frustrated by how complex and verbose building models with PyTorch could be for beginners and rapid prototyping.
 
-So, with the help of Claude (xAI), I created **Omage** — a simple, readable, and high-level wrapper that lets you build, train, and experiment with AI models the way you think, with minimal boilerplate.
+So, with the help of Claude and Grok (xAI), I created **Omage** — a simple, readable, and high-level wrapper that lets you build, train, and experiment with AI models the way you think, with minimal boilerplate.
 
 My goal is to help more people (especially those who are not deep into ML) to quickly test their ideas and lower the barrier of entry.
 
